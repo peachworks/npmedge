@@ -1,0 +1,29 @@
+{
+    "name": "npmedge",
+    "version": "0.1.2",
+    "description": "Lists packages whose latest available version does not satisfy the specification in package.json",
+    "keywords": ["latest", "version", "packages", "package", "update", "outdated", "discover", "new"],
+    "homepage": "https://jakut.is/git/NPMEDGE/about/",
+    "author": "Vytautas Jakutis <vytautas@jakut.is> (http://jakut.is/)",
+    "repository": {
+        "type": "git",
+        "url": "https://jakut.is/git/NPMEDGE"
+    },
+    "main": "./lib/main",
+    "bin": {
+        "npmedge": "./bin/npmedge"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "semver": "1.0.x",
+        "async": "0.1.x",
+        "valentine": "1.5.x",
+        "optimist": "0.3.x",
+        "npm": "1.1.x"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
