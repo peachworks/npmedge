@@ -5,6 +5,9 @@
     "keywords": ["latest", "version", "packages", "package", "update", "outdated", "discover", "new"],
     "homepage": "https://jakut.is/git/NPMEDGE/about/",
     "author": "Vytautas Jakutis <vytautas@jakut.is> (http://jakut.is/)",
+    "contributors": [
+      "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)"
+    ],
     "repository": {
         "type": "git",
         "url": "https://jakut.is/git/NPMEDGE"
@@ -15,7 +18,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "semver": "1.0.x",
+        "semver": "2.1.x",
         "async": "0.1.x",
         "valentine": "1.5.x",
         "optimist": "0.3.x",
